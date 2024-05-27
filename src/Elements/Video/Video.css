@@ -1,0 +1,26 @@
+.Video{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 96px;
+  text-align: center;
+}
+.Video h1{
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px){
+  .Video h1{
+    font-size: 6vw;
+  }
+}
+@media (max-width: 470px){
+  .Video video{
+    width: 50vw;
+    height: 90vw;
+  }
+  .Video{
+    margin-top: 10vw;
+  }
+}

@@ -1,0 +1,15 @@
+.Footer{
+    text-align: center;
+
+}
+.Footer img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.Footer h1{
+    font-size: 2vw;
+    font-weight: 200;
+}
+.Footer a{
+    color: black;
+}

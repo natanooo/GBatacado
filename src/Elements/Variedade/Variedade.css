@@ -1,0 +1,70 @@
+.Variedade{
+  background-color: #D9D9D9;
+  width: 96vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.Variedade h1{
+  margin-top: 52px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+}
+.Variedade h2{
+  text-align: center;
+  font-weight: 200;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.Variedade .List{
+  margin-top: 52px;
+  display: flex;
+  width: 98.827548601vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 600px){
+  .Variedade{
+    margin-top: 30vw;
+  }
+  .Variedade h1{
+    font-size: 5vw;
+    text-align: center;
+  }
+  .Variedade h2{
+    text-align: center;
+    font-size: 3vw;
+  }
+  .Variedade .List{
+    margin-top: 10vw;
+  }
+  .Variedade h2{
+    margin-top: 10vw;
+  }
+
+}
+.marketplace{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vw;
+}
+.marketplace img{
+  margin-top: 5vw;
+  width: 56.1vw;
+  height: 37.1vw;
+
+}
+.marketplace h1{
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+}
+@media (max-width: 600px){
+  .marketplace h1{
+    font-size: 5vw;
+  }
+}
