@@ -7,7 +7,7 @@ function Depoimentos({DepoimentosRef}) {
 
     <div className="Depoimentos">
     <div ref={DepoimentosRef} />
-      <h1>Depimentos</h1>
+      <h1>Depoimentos</h1>
       <div><img src={Dep1} alt="" /><img src={Dep2} alt="" /></div>
 
     </div>
